@@ -9,6 +9,10 @@
 			"path": "../experiments/external_variables"
 		},
 		{
+			"name": "Project Directive",
+			"path": "../experiments/project_directive"
+		}
+		{
 			"name": "Public Header",
 			"path": "../experiments/public_header"
 		}
