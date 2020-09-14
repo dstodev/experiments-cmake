@@ -18,6 +18,7 @@ Approach
 ---
 ### (Exp.3) Do toolchain variables persist throughout the build tree at configure time?
 Yes! After the project() directive, variables (cache or otherwise) defined in the toolchain file are available
+in the rest of the cmake build tree.
 
 Approach
 1. Set a variable via toolchain
