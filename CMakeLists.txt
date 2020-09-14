@@ -10,6 +10,10 @@
 
 	9. Does CMake-Tools set CMAKE_BUILD_TYPE?
 
+	10. Is $<INSTALL_INTERFACE:...> only useful when exporting CMake targets? What else gets an "include path"?
+
+	11. What are the default artifact locations when a target is installed?
+
 ]]
 cmake_minimum_required(VERSION 3.12)
 project(CMakeExperiments LANGUAGES CXX)

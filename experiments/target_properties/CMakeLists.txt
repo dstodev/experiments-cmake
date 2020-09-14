@@ -5,8 +5,7 @@ project(PropertyExperiments LANGUAGES CXX)
 add_library(producer INTERFACE)
 target_include_directories(producer
 	INTERFACE
-		$<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>
-		$<INSTALL_INTERFACE:include>
+		include
 )
 set_target_properties(producer
 	PROPERTIES
@@ -14,7 +13,7 @@ set_target_properties(producer
 )
 
 add_library(consumer
-	src/producer.cpp
+	src/consumer.cpp
 )
 target_link_libraries(consumer
 	PRIVATE
@@ -28,7 +27,7 @@ set_target_properties(control
 )
 
 include(CPack)
-set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_BINARY_DIR} CACHE INTERNAL "")
+set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_BINARY_DIR}/Exp.1)
 
 install(TARGETS control consumer
 	ARCHIVE DESTINATION lib
