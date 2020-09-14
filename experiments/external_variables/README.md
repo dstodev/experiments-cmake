@@ -1,5 +1,3 @@
-[Back](../..)
-
 ## External Variable Experiments
 
 ### (Exp.1) Are command-line variables cache variables?

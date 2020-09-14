@@ -1,5 +1,3 @@
-[Back](../../)
-
 ## External Variable Experiments
 
 ### (Exp.1) Is PUBLIC_HEADER transitive?

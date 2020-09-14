@@ -1,5 +1,3 @@
-[Back](/)
-
 ## External Variable Experiments
 
 ### (Exp.1) Do subsequent project() directives re-load the toolchain?
