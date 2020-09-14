@@ -27,7 +27,7 @@ set_target_properties(control
 )
 
 include(CPack)
-set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_BINARY_DIR}/Exp.1)
+set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_BINARY_DIR}/Exp.1")
 
 install(TARGETS control consumer
 	ARCHIVE DESTINATION lib
