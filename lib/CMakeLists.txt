@@ -7,8 +7,9 @@ install(TARGETS producer consumer
 	ARCHIVE DESTINATION lib
 	LIBRARY DESTINATION lib
 	RUNTIME DESTINATION bin
+
 	# Without specifying PUBLIC_HEADER, headers will be installed to an "include" directory. A different
-	# directory can be specified by supplying this property.
+	# directory can be specified by supplying this argument.
 	# PUBLIC_HEADER DESTINATION different
 )
 

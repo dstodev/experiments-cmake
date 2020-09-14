@@ -1,11 +1,16 @@
 {
 	"folders": [
-		/* ~~~~~~~~~~~~~~~~~~~
-		     Main Project
-		~~~~~~~~~~~~~~~~~~~ */
 		{
 			"name": "Project: CMake Experiments",
 			"path": ".."
+		},
+		{
+			"name": "External Variables",
+			"path": "../experiments/external_variables"
+		},
+		{
+			"name": "Public Header",
+			"path": "../experiments/public_header"
 		}
 	],
 	"settings": {

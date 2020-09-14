@@ -1,0 +1,6 @@
+{
+	"cmake.configureSettings": {
+		"CLI_VARIABLE": "For Exp.1&2",
+		"CMAKE_TOOLCHAIN_FILE": "toolchain.cmake"
+	},
+}
