@@ -9,12 +9,16 @@
 			"path": "../experiments/external_variables"
 		},
 		{
+			"name": "Installing Targets",
+			"path": "../experiments/installing_targets"
+		}
+		{
 			"name": "Project Directive",
 			"path": "../experiments/project_directive"
 		}
 		{
-			"name": "Public Header",
-			"path": "../experiments/public_header"
+			"name": "Target Properties",
+			"path": "../experiments/target_properties"
 		}
 	],
 	"settings": {

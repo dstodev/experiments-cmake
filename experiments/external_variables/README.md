@@ -10,7 +10,7 @@ Approach
 2. Check CMakeCache.txt for the variable
 
 ---
-### (Exp.2) Can command-line variables be referenced in toolchains?
+### (Exp.2) Can toolchains reference command-line variables?
 Yes! Variables set via the command-line are present and accessible from toolchain files.
 
 Approach

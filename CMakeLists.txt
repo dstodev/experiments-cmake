@@ -11,10 +11,8 @@
 	9. Does CMake-Tools set CMAKE_BUILD_TYPE?
 
 ]]
-
-cmake_minimum_required(VERSION 3.15.x)
-
-project(CMakeExperiment LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.12)
+project(CMakeExperiments LANGUAGES CXX)
 
 foreach(build_type DEBUG RELEASE RELWITHDEBINFO MINSIZEREL)
 	message("CMAKE_CXX_FLAGS_${build_type}_INIT: ${CMAKE_CXX_FLAGS_${build_type}_INIT}")
