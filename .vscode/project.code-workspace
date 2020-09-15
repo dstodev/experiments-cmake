@@ -11,11 +11,11 @@
 		{
 			"name": "Installing Targets",
 			"path": "../experiments/installing_targets"
-		}
+		},
 		{
 			"name": "Project Directive",
 			"path": "../experiments/project_directive"
-		}
+		},
 		{
 			"name": "Target Properties",
 			"path": "../experiments/target_properties"
