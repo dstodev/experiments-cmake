@@ -1,10 +1,15 @@
+<!-- Style lists for uniform references across renderers -->
+<style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style>
+
 ## External Variable Experiments
 
 ### (Exp.1) Is PUBLIC_HEADER transitive?
 No. The `PUBLIC_HEADER` property does not propogate to linked targets.
 
 Approach
-1. Create three targets: <ol type="A">
+1. Create three targets: <ol>
 	<li> <!-- A. --> An interface library which populates its PUBLIC_HEADER property</li>
 	<li> <!-- B. --> A static library which links to the interface library</li>
 	<li> <!-- C. --> Another interface library which populates its PUBLIC_HEADER property</li></ol>
