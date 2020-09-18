@@ -1,0 +1,6 @@
+{
+	"cmake.configureArgs": [],
+	"cmake.configureSettings": {
+		"CMAKE_TOOLCHAIN_FILE": "toolchain.cmake"
+	}
+}

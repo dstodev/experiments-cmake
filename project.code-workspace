@@ -2,23 +2,27 @@
 	"folders": [
 		{
 			"name": "Project: CMake Experiments",
-			"path": ".."
+			"path": "."
+		},
+		{
+			"name": "CMake Variables",
+			"path": "./experiments/cmake_variables"
 		},
 		{
 			"name": "External Variables",
-			"path": "../experiments/external_variables"
+			"path": "./experiments/external_variables"
 		},
 		{
 			"name": "Installing Targets",
-			"path": "../experiments/installing_targets"
+			"path": "./experiments/installing_targets"
 		},
 		{
 			"name": "Project Directive",
-			"path": "../experiments/project_directive"
+			"path": "./experiments/project_directive"
 		},
 		{
 			"name": "Target Properties",
-			"path": "../experiments/target_properties"
+			"path": "./experiments/target_properties"
 		}
 	],
 	"settings": {

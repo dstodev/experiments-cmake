@@ -14,11 +14,6 @@
 
 	11. What are the default artifact locations when a target is installed?
 
-]]
-cmake_minimum_required(VERSION 3.12)
-project(CMakeExperiments LANGUAGES CXX)
+	13.
 
-foreach(build_type DEBUG RELEASE RELWITHDEBINFO MINSIZEREL)
-	message("CMAKE_CXX_FLAGS_${build_type}_INIT: ${CMAKE_CXX_FLAGS_${build_type}_INIT}")
-	message("CMAKE_CXX_FLAGS_${build_type}: ${CMAKE_CXX_FLAGS_${build_type}}")
-endforeach()
+]]
