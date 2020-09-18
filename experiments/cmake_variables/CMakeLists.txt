@@ -10,8 +10,13 @@ foreach(build_type "" _DEBUG _RELEASE _RELWITHDEBINFO _MINSIZEREL)
 
 	set(${flag} "" CACHE STRING "")
 
-	message("2. ${flag}: ${${flag}}")
+	message("${flag}: ${${flag}}")
 endforeach()
 
 # Load project languages. Because all language flags are now set in the cache, this won't append any default flags!
 enable_language(C CXX)
+
+# Exp.2
+set(CACHE_VARIABLE "For Exp.2" CACHE STRING "Test variable for Experiment 2")
+set(CACHE_VARIABLE "${CACHE_VARIABLE}+")
+message("Shadow variable: ${CACHE_VARIABLE}")

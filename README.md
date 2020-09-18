@@ -3,6 +3,7 @@
 ## Table of Experiments
 1. [CMake Variables](experiments/cmake_variables/)
 	- Can default flags be permanently cleared?
+	- Can cache variables be locally extended by shadowing them with local variables of the same name?
 
 2. [External Variables](experiments/external_variables/)
 	- Are command-line variables cache variables?

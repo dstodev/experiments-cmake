@@ -27,3 +27,14 @@ Approach
 	- Does not limit user ability to add/modify flags (e.g. user can specify to use the same set of flags as
 	  the default flags. No matching for and removing default flags after the `project()` directive.)
 	- Is simple & easy to understand/add. It probably isn't worth it if the solution is 100 lines long.
+
+### (Exp.2) Can cache variables be locally extended by shadowing them with local variables of the same name?
+Yes! A local variable can be set with the same name as a cache variable, even using that cache variable for its value.
+This "shadow variable" will take precedence of the cache variable from then on, but no longer has any connection to
+the CMake cache.
+
+Approach
+1. Set a cache variable
+2. Extend the cache variable with a local variable of the same name
+3. Check that the local variable contains the cache variable's value
+4. Check the CMake cache to ensure the cache variable has not changed
