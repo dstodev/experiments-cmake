@@ -12,3 +12,11 @@ Approach
 
 If installing target B installs the headers specified by A, then `PUBLIC_HEADER` is transitive.
 Target C is a control to compare install behavior.
+
+---
+### (Exp.2) Is it possible to enable CMAKE_VERBOSE_MAKEFILE for only a specific project?
+
+Approach
+1. Create two targets
+2. Enable CMAKE_VERBOSE_MAKEFILE for only one target
+3. Confirm that build output matches this behavior

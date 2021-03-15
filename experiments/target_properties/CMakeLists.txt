@@ -34,3 +34,6 @@ install(TARGETS control consumer
 	LIBRARY DESTINATION lib
 	RUNTIME DESTINATION bin
 )
+
+# Exp.2
+add_subdirectory(dummy)
