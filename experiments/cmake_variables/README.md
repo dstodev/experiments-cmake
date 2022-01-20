@@ -16,7 +16,7 @@ the toolchain will not be able to set these variables to any default value!
 Approach
 1. Experiment with methods to clear default language flags:
 	- Try clearing `CMAKE_<lang>_FLAGS_<type>_INIT` variables
-	- Try pre-setting `CMAKE_<lang>_FLAGS_<type> cache` variables
+	- Try pre-setting `CMAKE_<lang>_FLAGS_<type>` cache variables
 	- Try other spontaneous ideas
 
 2. Develop a method of clearing language default flags with the following properties:
